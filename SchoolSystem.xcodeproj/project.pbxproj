@@ -14,6 +14,14 @@
 		042CFA902B565E7C0021359E /* SchoolSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 042CFA8E2B565E7C0021359E /* SchoolSystem.xcdatamodeld */; };
 		042CFA922B565E7E0021359E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042CFA912B565E7E0021359E /* Assets.xcassets */; };
 		042CFA952B565E7E0021359E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042CFA932B565E7E0021359E /* LaunchScreen.storyboard */; };
+		04AAA0B72B5FCF2C0031B64D /* CollectInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA0B62B5FCF2C0031B64D /* CollectInformation.swift */; };
+		04AAA0B92B5FCF430031B64D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA0B82B5FCF430031B64D /* DetailsViewController.swift */; };
+		04AAA0D82B60007F0031B64D /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA0D22B60007F0031B64D /* Person+CoreDataClass.swift */; };
+		04AAA0D92B60007F0031B64D /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA0D32B60007F0031B64D /* Person+CoreDataProperties.swift */; };
+		04AAA0DA2B60007F0031B64D /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA0D42B60007F0031B64D /* Student+CoreDataClass.swift */; };
+		04AAA0DB2B60007F0031B64D /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA0D52B60007F0031B64D /* Student+CoreDataProperties.swift */; };
+		04AAA0DC2B60007F0031B64D /* Teacher+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA0D62B60007F0031B64D /* Teacher+CoreDataClass.swift */; };
+		04AAA0DD2B60007F0031B64D /* Teacher+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AAA0D72B60007F0031B64D /* Teacher+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		042CFA912B565E7E0021359E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042CFA942B565E7E0021359E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042CFA962B565E7E0021359E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AAA0B62B5FCF2C0031B64D /* CollectInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectInformation.swift; sourceTree = "<group>"; };
+		04AAA0B82B5FCF430031B64D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		04AAA0D22B60007F0031B64D /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		04AAA0D32B60007F0031B64D /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04AAA0D42B60007F0031B64D /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		04AAA0D52B60007F0031B64D /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04AAA0D62B60007F0031B64D /* Teacher+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Teacher+CoreDataClass.swift"; sourceTree = "<group>"; };
+		04AAA0D72B60007F0031B64D /* Teacher+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Teacher+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,12 @@
 		042CFA792B565E7C0021359E = {
 			isa = PBXGroup;
 			children = (
+				04AAA0D22B60007F0031B64D /* Person+CoreDataClass.swift */,
+				04AAA0D32B60007F0031B64D /* Person+CoreDataProperties.swift */,
+				04AAA0D42B60007F0031B64D /* Student+CoreDataClass.swift */,
+				04AAA0D52B60007F0031B64D /* Student+CoreDataProperties.swift */,
+				04AAA0D62B60007F0031B64D /* Teacher+CoreDataClass.swift */,
+				04AAA0D72B60007F0031B64D /* Teacher+CoreDataProperties.swift */,
 				042CFA842B565E7C0021359E /* SchoolSystem */,
 				042CFA832B565E7C0021359E /* Products */,
 			);
@@ -61,6 +83,8 @@
 				042CFA852B565E7C0021359E /* AppDelegate.swift */,
 				042CFA872B565E7C0021359E /* SceneDelegate.swift */,
 				042CFA892B565E7C0021359E /* ViewController.swift */,
+				04AAA0B62B5FCF2C0031B64D /* CollectInformation.swift */,
+				04AAA0B82B5FCF430031B64D /* DetailsViewController.swift */,
 				042CFA8B2B565E7C0021359E /* Main.storyboard */,
 				042CFA912B565E7E0021359E /* Assets.xcassets */,
 				042CFA932B565E7E0021359E /* LaunchScreen.storyboard */,
@@ -141,10 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AAA0DD2B60007F0031B64D /* Teacher+CoreDataProperties.swift in Sources */,
+				04AAA0B72B5FCF2C0031B64D /* CollectInformation.swift in Sources */,
+				04AAA0D82B60007F0031B64D /* Person+CoreDataClass.swift in Sources */,
 				042CFA8A2B565E7C0021359E /* ViewController.swift in Sources */,
 				042CFA862B565E7C0021359E /* AppDelegate.swift in Sources */,
+				04AAA0DB2B60007F0031B64D /* Student+CoreDataProperties.swift in Sources */,
+				04AAA0D92B60007F0031B64D /* Person+CoreDataProperties.swift in Sources */,
+				04AAA0DC2B60007F0031B64D /* Teacher+CoreDataClass.swift in Sources */,
 				042CFA902B565E7C0021359E /* SchoolSystem.xcdatamodeld in Sources */,
 				042CFA882B565E7C0021359E /* SceneDelegate.swift in Sources */,
+				04AAA0DA2B60007F0031B64D /* Student+CoreDataClass.swift in Sources */,
+				04AAA0B92B5FCF430031B64D /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
